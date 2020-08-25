@@ -1,0 +1,19 @@
+<view class="canvas-container">
+  <view class="canvas-stand">
+    <image src="/images/wheelstand.png" style="width: 320px; height:410px;"></image>
+  </view>
+
+  <view animation="{{animationData}}" class="canvas-content">
+    <canvas style="width: 300px; height: 300px;" canvas-id="wheel"></canvas>
+
+    <view class="canvas-list">
+      <view class="canvas-item" wx:for="{{wheelItems}}" wx:key="unique">
+          <view class="canvas-item-text" style="-webkit-transform: rotate({{item.turn}});transform: rotate({{item.turn}})"><image src="{{item.icon}}" class="canvas-item-img"></image></view>
+      </view>
+    </view>
+
+  </view>
+  <view class="canvas-btn">
+    <image style="height: 80px; width: 80px;" src="/images/pointer.png"></image>
+  </view>
+</view>
