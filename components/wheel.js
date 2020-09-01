@@ -38,7 +38,7 @@ Component({
       var awardLen = that.data.wheelItems.length
       
       var awardIndex = Math.random() * awardLen >>> 0;
-      var runNum = awardLen
+      var runNum = 8 //awardLen
 
       console.log('awardIndex', awardIndex)
 
