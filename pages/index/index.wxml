@@ -1,2 +1,2 @@
 <!-- ctx.setFill doesnt work on the component! -->
-<wheel wheelItems="{{prizes}}" />
+<wheel wheelItems="{{wheel}}" />

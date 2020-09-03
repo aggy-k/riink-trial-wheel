@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    "prizes": [
+    "wheel": [
       {
         "id": 6,
         "category": "food",
@@ -78,7 +78,7 @@ Page({
     ]
   },
   onLoad: function () {
-    // wx.request url "/prizes"
+    // wx.request url "/wheel"
   },
   drawCanvas() {
     // if canvas ever going to be needed again
